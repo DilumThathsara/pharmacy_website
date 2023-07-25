@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+  
+  
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  height: 300px; 
+}
+  
+  
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+    
+}
+
+.row{
+  padding: 0px 0px 0px 40px;
+}
+  
+body {
+  background-color: #556754;
+}
+
+.button {
+    background-color: #5F501D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* button{
+  background-color: #5F501D;
+  margin: 0 2px;
+  border-radius: 13px;
+  padding: 5px 10px;
+} */

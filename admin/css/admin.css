@@ -1,0 +1,42 @@
+.content {
+  margin-left: 260px;
+  padding: 57px 0px;
+  /* height: 1000px; */
+}
+
+.add-btn {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.add-btn button {
+  background-color: #5f501d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 50px;
+  width: 250px;
+  color: white;
+}
+
+.add-btn button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.del-btn {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+}
+
+.del-btn a {
+  text-decoration: none;
+  color: white;
+}
